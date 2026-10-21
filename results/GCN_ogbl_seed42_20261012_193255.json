@@ -1,0 +1,19 @@
+{
+  "experiment_name": "GCN_ogbl",
+  "seed": 42,
+  "git_commit": "0e4b21674b029ab792c6443821a4031efc4266af",
+  "wall_clock_seconds": 99.669,
+  "timestamp": "2026-10-12T14:02:55Z",
+  "threads": 8,
+  "config": {
+    "dataset": "ogbl-ddi"
+  },
+  "metrics": {
+    "auroc": 0.8145,
+    "auprc": 0.8137,
+    "hits@20": 0.179,
+    "hits@50": 0.2835,
+    "ece": 0.1815
+  },
+  "metadata": {}
+}

@@ -1,0 +1,17 @@
+\begin{table}[t]
+\centering
+\caption{Summary Statistics of Evaluated Benchmark and Clinical Patient Graphs}
+\label{tab:datasets}
+\begin{tabular}{lccccc}
+\toprule
+\textbf{Dataset} & \textbf{Domain} & \textbf{Nodes} & \textbf{Edges} & \textbf{Task Split} & \textbf{Primary Metric} \\
+\midrule
+\texttt{ogbl-ddi} & Biomedical & 4,267 & 2,135,822 & Official Link Split & Hits@20 \\
+\texttt{DrugBank} (S1) & Biomedical & 1,706 & 191,402 & Transductive (80/10/10) & AUROC / AUPRC \\
+\texttt{DrugBank} (S2) & Biomedical & 1,706 & 191,402 & 1-Unseen Cold-Start & AUROC / Hits@20 \\
+\texttt{DrugBank} (S3) & Biomedical & 1,706 & 191,402 & 2-Unseen Cold-Start & AUROC / Hits@20 \\
+\texttt{TWOSIDES} & Clinical DDI & 645 & 4,649,441 & Top-20 Polypharmacy & Multi-Rel AUROC \\
+\texttt{Synthea Cohort} & Clinical EHR & 10,000 & 54,788 & Patient Context Graph & Task B Severity \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,29 @@
+\begin{table*}[t]
+\centering
+\caption{Comparative Baseline Performance Across Transductive (S1) and Cold-Start (S2, S3) Splits (Mean $\pm$ Std over 5 Seeds)}
+\label{tab:baselines}
+\begin{tabular}{llccccc}
+\toprule
+\textbf{Model Architecture} & \textbf{Split} & \textbf{AUROC} $\uparrow$ & \textbf{AUPRC} $\uparrow$ & \textbf{Hits@20} $\uparrow$ & \textbf{Hits@50} $\uparrow$ & \textbf{ECE} $\downarrow$ \\
+\midrule
+DistMult & S1 (Transductive) & 0.8432 $\pm$ 0.002 & 0.8538 $\pm$ 0.003 & 0.0952 $\pm$ 0.011 & 0.1417 $\pm$ 0.012 & 0.1873 $\pm$ 0.002 \\
+TransE & S1 (Transductive) & 0.6735 $\pm$ 0.003 & 0.6463 $\pm$ 0.003 & 0.0020 $\pm$ 0.000 & 0.0053 $\pm$ 0.001 & 0.0209 $\pm$ 0.001 \\
+Logistic Regression (FP) & S1 (Transductive) & 0.8629 & 0.8427 & 0.0230 & 0.0553 & 0.0169 \\
+Fingerprint MLP & S1 (Transductive) & 0.9354 $\pm$ 0.002 & 0.9332 $\pm$ 0.002 & 0.1474 $\pm$ 0.009 & 0.2320 $\pm$ 0.021 & 0.0325 $\pm$ 0.004 \\
+GCN & S1 (Transductive) & 0.9610 $\pm$ 0.002 & 0.9605 $\pm$ 0.002 & 0.2991 $\pm$ 0.014 & 0.3827 $\pm$ 0.011 & 0.0194 $\pm$ 0.018 \\
+GraphSAGE & S1 (Transductive) & 0.9687 $\pm$ 0.002 & 0.9677 $\pm$ 0.002 & 0.2819 $\pm$ 0.020 & 0.3941 $\pm$ 0.013 & 0.0244 $\pm$ 0.015 \\
+R-GCN (Fingerprint Init) & S1 (Transductive) & 0.9648 $\pm$ 0.002 & 0.9640 $\pm$ 0.002 & 0.3027 $\pm$ 0.025 & 0.3980 $\pm$ 0.016 & 0.0268 $\pm$ 0.016 \\
+\midrule
+Logistic Regression (FP) & S2 (1-Unseen) & 0.7027 & 0.6678 & 0.0043 & 0.0094 & 0.4478 \\
+Fingerprint MLP & S2 (1-Unseen) & 0.8095 $\pm$ 0.007 & 0.8141 $\pm$ 0.007 & 0.0420 $\pm$ 0.010 & 0.0632 $\pm$ 0.008 & 0.3067 $\pm$ 0.026 \\
+R-GCN (Graph Only) & S2 (1-Unseen) & 0.5169 $\pm$ 0.028 & 0.5086 $\pm$ 0.019 & 0.0004 $\pm$ 0.000 & 0.0012 $\pm$ 0.001 & 0.4995 $\pm$ 0.001 \\
+\midrule
+Logistic Regression (FP) & S3 (2-Unseen) & 0.6149 & 0.6117 & 0.0103 & 0.0225 & 0.4876 \\
+Fingerprint MLP & S3 (2-Unseen) & 0.6555 $\pm$ 0.007 & 0.6630 $\pm$ 0.007 & 0.0400 $\pm$ 0.007 & 0.0636 $\pm$ 0.007 & 0.4834 $\pm$ 0.004 \\
+R-GCN (Graph Only) & S3 (2-Unseen) & 0.4814 $\pm$ 0.022 & 0.4808 $\pm$ 0.019 & 0.0016 $\pm$ 0.001 & 0.0048 $\pm$ 0.002 & 0.4972 $\pm$ 0.004 \\
+\midrule
+GCN (ogbl-ddi) & Official Split & 0.8145 & 0.8137 & 0.1790 & 0.2835 & 0.1815 \\
+GraphSAGE (ogbl-ddi) & Official Split & 0.6517 & 0.6502 & 0.0575 & 0.0975 & 0.0177 \\
+\bottomrule
+\end{tabular}
+\end{table*}

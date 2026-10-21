@@ -1,0 +1,747 @@
+{
+  "departments": [
+    {
+      "departmentId": "DEP01",
+      "name": "Cardiology",
+      "description": "Comprehensive heart, cardiovascular, and thoracic care"
+    },
+    {
+      "departmentId": "DEP02",
+      "name": "Neurology",
+      "description": "Brain, central nervous system, and neuro-muscular disorders"
+    },
+    {
+      "departmentId": "DEP03",
+      "name": "Orthopedics",
+      "description": "Bone fractures, joint replacements, and musculoskeletal wellness"
+    },
+    {
+      "departmentId": "DEP04",
+      "name": "General Medicine",
+      "description": "Primary outpatient consultation and internal medical care"
+    }
+  ],
+  "doctors": [
+    {
+      "doctorId": "D101",
+      "name": "Dr. Rajesh Sharma",
+      "specialization": "Interventional Cardiology",
+      "departmentId": "DEP01",
+      "phone": "9820112233",
+      "email": "rajesh.sharma@hospital.org",
+      "experience": 14
+    },
+    {
+      "doctorId": "D102",
+      "name": "Dr. Ananya Iyer",
+      "specialization": "Preventive Cardiology",
+      "departmentId": "DEP01",
+      "phone": "9820223344",
+      "email": "ananya.iyer@hospital.org",
+      "experience": 8
+    },
+    {
+      "doctorId": "D103",
+      "name": "Dr. Vikram Rao",
+      "specialization": "Clinical Neurology",
+      "departmentId": "DEP02",
+      "phone": "9820334455",
+      "email": "vikram.rao@hospital.org",
+      "experience": 12
+    },
+    {
+      "doctorId": "D104",
+      "name": "Dr. Sneha Patel",
+      "specialization": "Orthopedic Surgery",
+      "departmentId": "DEP03",
+      "phone": "9820445566",
+      "email": "sneha.patel@hospital.org",
+      "experience": 10
+    },
+    {
+      "doctorId": "D105",
+      "name": "Dr. Amitav Ghosh",
+      "specialization": "Internal Medicine",
+      "departmentId": "DEP04",
+      "phone": "9820556677",
+      "email": "amitav.ghosh@hospital.org",
+      "experience": 16
+    },
+    {
+      "doctorId": "D106",
+      "name": "Dr. Yash Khose",
+      "specialization": "Radiologist",
+      "departmentId": "DEP04",
+      "phone": "9820982011",
+      "email": "yashkhose25@gmail.com",
+      "experience": 15,
+      "_id": "a4e86f143c98d5a85d9afe90",
+      "createdAt": "2026-10-12T17:56:04.488Z",
+      "updatedAt": "2026-10-12T17:56:04.488Z"
+    }
+  ],
+  "diseases": [
+    {
+      "diseaseId": "DIS01",
+      "name": "Hypertension",
+      "description": "Chronic arterial blood pressure elevation"
+    },
+    {
+      "diseaseId": "DIS02",
+      "name": "Coronary Artery Disease",
+      "description": "Impairment of blood flow through coronary arteries"
+    },
+    {
+      "diseaseId": "DIS03",
+      "name": "Type 2 Diabetes",
+      "description": "Metabolic disorder characterized by hyperglycemia and insulin resistance"
+    },
+    {
+      "diseaseId": "DIS04",
+      "name": "Migraine",
+      "description": "Neurological headache disorder accompanied by sensory sensitivity"
+    },
+    {
+      "diseaseId": "DIS05",
+      "name": "Osteoarthritis",
+      "description": "Degenerative joint disease resulting from cartilage breakdown"
+    },
+    {
+      "diseaseId": "DIS06",
+      "name": "Lumbar Spondylosis",
+      "description": "Age-related degenerative osteoarthritis of lumbar spine"
+    },
+    {
+      "diseaseId": "DIS07",
+      "name": "Bronchial Asthma",
+      "description": "Inflammatory disease of airways causing periodic wheezing"
+    },
+    {
+      "diseaseId": "DIS08",
+      "name": "GERD",
+      "description": "Gastroesophageal reflux disease causing mucosal acid damage"
+    }
+  ],
+  "medicines": [
+    {
+      "medicineId": "MED01",
+      "name": "Amlodipine 5mg",
+      "category": "Antihypertensive",
+      "description": "Calcium channel blocker for vascular resistance relaxation"
+    },
+    {
+      "medicineId": "MED02",
+      "name": "Atorvastatin 20mg",
+      "category": "Lipid-Lowering",
+      "description": "HMG-CoA reductase inhibitor lowering LDL cholesterol"
+    },
+    {
+      "medicineId": "MED03",
+      "name": "Metformin 500mg",
+      "category": "Antidiabetic",
+      "description": "Biguanide decreasing hepatic glucose production"
+    },
+    {
+      "medicineId": "MED04",
+      "name": "Sumatriptan 50mg",
+      "category": "Antimigraine",
+      "description": "Selective 5-HT1B/1D receptor agonist"
+    },
+    {
+      "medicineId": "MED05",
+      "name": "Paracetamol 650mg",
+      "category": "Analgesic",
+      "description": "Antipyretic and analgesic for pain control"
+    },
+    {
+      "medicineId": "MED06",
+      "name": "Glucosamine 500mg",
+      "category": "Chondroprotective",
+      "description": "Nutraceutical supporting cartilage preservation"
+    },
+    {
+      "medicineId": "MED07",
+      "name": "Aceclofenac 100mg",
+      "category": "NSAID",
+      "description": "Potent non-steroidal anti-inflammatory"
+    },
+    {
+      "medicineId": "MED08",
+      "name": "Montelukast 10mg",
+      "category": "Antiasthmatic",
+      "description": "Leukotriene receptor antagonist for airway maintenance"
+    },
+    {
+      "medicineId": "MED09",
+      "name": "Pantoprazole 40mg",
+      "category": "Proton Pump Inhibitor",
+      "description": "Gastric acid secretion suppressor"
+    },
+    {
+      "medicineId": "MED10",
+      "name": "Telmisartan 40mg",
+      "category": "Antihypertensive",
+      "description": "Angiotensin II receptor blocker"
+    },
+    {
+      "medicineId": "MED11",
+      "name": "Ibuprofen 400mg",
+      "category": "NSAID",
+      "description": "Non-steroidal anti-inflammatory analgesic"
+    },
+    {
+      "medicineId": "MED12",
+      "name": "Lisinopril 10mg",
+      "category": "ACE Inhibitor",
+      "description": "Angiotensin converting enzyme inhibitor for hypertension and cardiovascular care"
+    }
+  ],
+  "patients": [
+    {
+      "patientId": "P101",
+      "name": "Rahul Verma",
+      "age": 38,
+      "gender": "Male",
+      "bloodGroup": "B+",
+      "phone": "9876543210",
+      "email": "rahul.verma@example.com",
+      "address": {
+        "street": "14 MG Road",
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "zipCode": "400001"
+      },
+      "medicalHistory": [
+        {
+          "disease": "Hypertension",
+          "diagnosedYear": 2023,
+          "notes": "Stage 1 essential hypertension"
+        }
+      ]
+    },
+    {
+      "patientId": "P102",
+      "name": "Priya Nair",
+      "age": 29,
+      "gender": "Female",
+      "bloodGroup": "A+",
+      "phone": "9876543211",
+      "email": "priya.nair@example.com",
+      "address": {
+        "street": "22 Indiranagar",
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "zipCode": "560038"
+      },
+      "medicalHistory": [
+        {
+          "disease": "Migraine",
+          "diagnosedYear": 2022,
+          "notes": "Episodic migraine without aura"
+        }
+      ]
+    },
+    {
+      "patientId": "P103",
+      "name": "Suresh Menon",
+      "age": 58,
+      "gender": "Male",
+      "bloodGroup": "O+",
+      "phone": "9876543212",
+      "email": "suresh.menon@example.com",
+      "address": {
+        "street": "5 Anna Salai",
+        "city": "Chennai",
+        "state": "Tamil Nadu",
+        "zipCode": "600002"
+      },
+      "medicalHistory": [
+        {
+          "disease": "Coronary Artery Disease",
+          "diagnosedYear": 2021,
+          "notes": "Mild single-vessel disease"
+        },
+        {
+          "disease": "Hypertension",
+          "diagnosedYear": 2019,
+          "notes": "Controlled with medication"
+        }
+      ]
+    },
+    {
+      "patientId": "P104",
+      "name": "Kavita Reddy",
+      "age": 44,
+      "gender": "Female",
+      "bloodGroup": "AB+",
+      "phone": "9876543213",
+      "email": "kavita.reddy@example.com",
+      "address": {
+        "street": "8 Banjara Hills",
+        "city": "Hyderabad",
+        "state": "Telangana",
+        "zipCode": "500034"
+      },
+      "medicalHistory": [
+        {
+          "disease": "Type 2 Diabetes",
+          "diagnosedYear": 2020,
+          "notes": "Under dietary and drug management"
+        }
+      ]
+    },
+    {
+      "patientId": "P105",
+      "name": "Arun Mukherjee",
+      "age": 62,
+      "gender": "Male",
+      "bloodGroup": "B-",
+      "phone": "9876543214",
+      "email": "arun.mukherjee@example.com",
+      "address": {
+        "street": "19 Park Street",
+        "city": "Kolkata",
+        "state": "West Bengal",
+        "zipCode": "700016"
+      },
+      "medicalHistory": [
+        {
+          "disease": "Osteoarthritis",
+          "diagnosedYear": 2022,
+          "notes": "Bilateral knee osteoarthritis"
+        }
+      ]
+    },
+    {
+      "patientId": "P106",
+      "name": "Sunita Sharma",
+      "age": 51,
+      "gender": "Female",
+      "bloodGroup": "O-",
+      "phone": "9876543215",
+      "email": "sunita.sharma@example.com",
+      "address": {
+        "street": "42 Ring Road",
+        "city": "New Delhi",
+        "state": "Delhi",
+        "zipCode": "110001"
+      },
+      "medicalHistory": [
+        {
+          "disease": "Lumbar Spondylosis",
+          "diagnosedYear": 2023,
+          "notes": "L4-L5 disc degeneration"
+        },
+        {
+          "disease": "Hypertension",
+          "diagnosedYear": 2024,
+          "notes": "Mild"
+        }
+      ]
+    },
+    {
+      "patientId": "P107",
+      "name": "Deepak Joshi",
+      "age": 34,
+      "gender": "Male",
+      "bloodGroup": "A-",
+      "phone": "9876543216",
+      "email": "deepak.joshi@example.com",
+      "address": {
+        "street": "3 FC Road",
+        "city": "Pune",
+        "state": "Maharashtra",
+        "zipCode": "411004"
+      },
+      "medicalHistory": [
+        {
+          "disease": "Bronchial Asthma",
+          "diagnosedYear": 2018,
+          "notes": "Seasonal pollen triggers"
+        }
+      ]
+    },
+    {
+      "patientId": "P108",
+      "name": "Meera Das",
+      "age": 41,
+      "gender": "Female",
+      "bloodGroup": "B+",
+      "phone": "9876543217",
+      "email": "meera.das@example.com",
+      "address": {
+        "street": "7 SG Highway",
+        "city": "Ahmedabad",
+        "state": "Gujarat",
+        "zipCode": "380015"
+      },
+      "medicalHistory": [
+        {
+          "disease": "GERD",
+          "diagnosedYear": 2024,
+          "notes": "Frequent nocturnal reflux"
+        }
+      ]
+    },
+    {
+      "patientId": "P109",
+      "name": "Karan Kapoor",
+      "age": 47,
+      "gender": "Male",
+      "bloodGroup": "AB-",
+      "phone": "9876543218",
+      "email": "karan.kapoor@example.com",
+      "address": {
+        "street": "11 Sector 17",
+        "city": "Chandigarh",
+        "state": "Punjab",
+        "zipCode": "160017"
+      },
+      "medicalHistory": [
+        {
+          "disease": "Type 2 Diabetes",
+          "diagnosedYear": 2021,
+          "notes": "Managed with Metformin"
+        },
+        {
+          "disease": "Hypertension",
+          "diagnosedYear": 2022,
+          "notes": "Moderate"
+        }
+      ]
+    },
+    {
+      "patientId": "P110",
+      "name": "Anjali Bhatt",
+      "age": 26,
+      "gender": "Female",
+      "bloodGroup": "O+",
+      "phone": "9876543219",
+      "email": "anjali.bhatt@example.com",
+      "address": {
+        "street": "2 MI Road",
+        "city": "Jaipur",
+        "state": "Rajasthan",
+        "zipCode": "302001"
+      },
+      "medicalHistory": [
+        {
+          "disease": "Migraine",
+          "diagnosedYear": 2025,
+          "notes": "Stress induced headaches"
+        }
+      ]
+    },
+    {
+      "patientId": "P111",
+      "bloodGroup": "O+",
+      "age": 50,
+      "gender": "Male",
+      "name": "Dr. Teacher Test Patient",
+      "phone": "9876543299",
+      "medicalHistory": [
+        {
+          "disease": "Chronic Kidney Disease",
+          "notes": "Test persistent record",
+          "diagnosedYear": 2024
+        }
+      ],
+      "email": "teacher.test@example.com",
+      "_id": "patients_1791826094466_3khnlx",
+      "createdAt": "2026-10-12T17:28:14.466Z",
+      "updatedAt": "2026-10-12T17:28:14.466Z"
+    },
+    {
+      "patientId": "P112",
+      "name": "ABC",
+      "age": 40,
+      "gender": "Male",
+      "bloodGroup": "O+",
+      "phone": "1234567888",
+      "email": "test@test.com",
+      "address": {
+        "street": "",
+        "city": "Pune",
+        "state": "",
+        "zipCode": ""
+      },
+      "medicalHistoryDisease": "CKD",
+      "medicalHistoryYear": "",
+      "medicalHistory": [
+        {
+          "disease": "CKD",
+          "diagnosedYear": 2026,
+          "notes": "Added via web portal"
+        }
+      ],
+      "_id": "2e482239be9adfbe1dcd23eb",
+      "createdAt": "2026-10-13T07:05:20.533Z",
+      "updatedAt": "2026-10-13T07:05:20.533Z"
+    }
+  ],
+  "appointments": [
+    {
+      "appointmentId": "APT101",
+      "patientId": "P101",
+      "doctorId": "D101",
+      "date": "2026-09-10",
+      "time": "09:30",
+      "status": "Completed",
+      "reason": "Routine cardiac and BP checkup"
+    },
+    {
+      "appointmentId": "APT102",
+      "patientId": "P102",
+      "doctorId": "D103",
+      "date": "2026-09-11",
+      "time": "10:00",
+      "status": "Completed",
+      "reason": "Severe recurring migraine attacks"
+    },
+    {
+      "appointmentId": "APT103",
+      "patientId": "P103",
+      "doctorId": "D102",
+      "date": "2026-09-12",
+      "time": "11:15",
+      "status": "Completed",
+      "reason": "Quarterly post-angioplasty lipid review"
+    },
+    {
+      "appointmentId": "APT104",
+      "patientId": "P104",
+      "doctorId": "D105",
+      "date": "2026-09-14",
+      "time": "09:00",
+      "status": "Completed",
+      "reason": "Fasting glucose and HbA1c evaluation"
+    },
+    {
+      "appointmentId": "APT105",
+      "patientId": "P105",
+      "doctorId": "D104",
+      "date": "2026-09-15",
+      "time": "14:00",
+      "status": "Completed",
+      "reason": "Bilateral knee pain and stiffness"
+    },
+    {
+      "appointmentId": "APT106",
+      "patientId": "P106",
+      "doctorId": "D104",
+      "date": "2026-09-18",
+      "time": "15:30",
+      "status": "Completed",
+      "reason": "Lower lumbar chronic discomfort"
+    },
+    {
+      "appointmentId": "APT107",
+      "patientId": "P107",
+      "doctorId": "D105",
+      "date": "2026-09-20",
+      "time": "10:30",
+      "status": "Completed",
+      "reason": "Wheezing and chest tightness management"
+    },
+    {
+      "appointmentId": "APT108",
+      "patientId": "P108",
+      "doctorId": "D105",
+      "date": "2026-09-22",
+      "time": "11:00",
+      "status": "Completed",
+      "reason": "Epigastric burn and acid regurgitation"
+    },
+    {
+      "appointmentId": "APT109",
+      "patientId": "P109",
+      "doctorId": "D101",
+      "date": "2026-09-26",
+      "time": "10:00",
+      "status": "Scheduled",
+      "reason": "BP medication titration review"
+    },
+    {
+      "appointmentId": "APT110",
+      "patientId": "P110",
+      "doctorId": "D103",
+      "date": "2026-09-27",
+      "time": "16:00",
+      "status": "Scheduled",
+      "reason": "Migraine frequency follow-up"
+    }
+  ],
+  "prescriptions": [
+    {
+      "prescriptionId": "RX101",
+      "patientId": "P101",
+      "doctorId": "D101",
+      "diagnosis": "Primary Hypertension Stage 1",
+      "instructions": "Take in the morning after breakfast. Monitor BP weekly.",
+      "date": "2026-09-10",
+      "medicines": [
+        {
+          "medicineId": "MED01",
+          "name": "Amlodipine 5mg",
+          "dosage": "5mg",
+          "frequency": "Once daily",
+          "duration": "30 days"
+        },
+        {
+          "medicineId": "MED10",
+          "name": "Telmisartan 40mg",
+          "dosage": "40mg",
+          "frequency": "Once daily",
+          "duration": "30 days"
+        }
+      ]
+    },
+    {
+      "prescriptionId": "RX102",
+      "patientId": "P102",
+      "doctorId": "D103",
+      "diagnosis": "Acute Episodic Migraine",
+      "instructions": "Take Sumatriptan immediately when prodrome starts. Stay hydrated.",
+      "date": "2026-09-11",
+      "medicines": [
+        {
+          "medicineId": "MED04",
+          "name": "Sumatriptan 50mg",
+          "dosage": "50mg",
+          "frequency": "SOS (as needed)",
+          "duration": "10 days"
+        },
+        {
+          "medicineId": "MED05",
+          "name": "Paracetamol 650mg",
+          "dosage": "650mg",
+          "frequency": "SOS",
+          "duration": "5 days"
+        }
+      ]
+    },
+    {
+      "prescriptionId": "RX103",
+      "patientId": "P103",
+      "doctorId": "D102",
+      "diagnosis": "Coronary Artery Disease & Dyslipidemia",
+      "instructions": "Maintain low-sodium and low-cholesterol diet. Night dosage for Statin.",
+      "date": "2026-09-12",
+      "medicines": [
+        {
+          "medicineId": "MED01",
+          "name": "Amlodipine 5mg",
+          "dosage": "5mg",
+          "frequency": "Once daily",
+          "duration": "60 days"
+        },
+        {
+          "medicineId": "MED02",
+          "name": "Atorvastatin 20mg",
+          "dosage": "20mg",
+          "frequency": "Once daily at night",
+          "duration": "60 days"
+        }
+      ]
+    },
+    {
+      "prescriptionId": "RX104",
+      "patientId": "P104",
+      "doctorId": "D105",
+      "diagnosis": "Type 2 Diabetes Mellitus",
+      "instructions": "Take 15 minutes before breakfast and dinner. Avoid refined sugars.",
+      "date": "2026-09-14",
+      "medicines": [
+        {
+          "medicineId": "MED03",
+          "name": "Metformin 500mg",
+          "dosage": "500mg",
+          "frequency": "Twice daily",
+          "duration": "30 days"
+        }
+      ]
+    },
+    {
+      "prescriptionId": "RX105",
+      "patientId": "P105",
+      "doctorId": "D104",
+      "diagnosis": "Bilateral Knee Osteoarthritis",
+      "instructions": "Perform low-impact quadriceps strengthening. Take with food.",
+      "date": "2026-09-15",
+      "medicines": [
+        {
+          "medicineId": "MED06",
+          "name": "Glucosamine 500mg",
+          "dosage": "500mg",
+          "frequency": "Once daily",
+          "duration": "60 days"
+        },
+        {
+          "medicineId": "MED07",
+          "name": "Aceclofenac 100mg",
+          "dosage": "100mg",
+          "frequency": "Twice daily",
+          "duration": "7 days"
+        }
+      ]
+    },
+    {
+      "prescriptionId": "RX106",
+      "patientId": "P106",
+      "doctorId": "D104",
+      "diagnosis": "Lumbar Spondylosis",
+      "instructions": "Avoid forward spine bending. Use ergonomic lumbar support.",
+      "date": "2026-09-18",
+      "medicines": [
+        {
+          "medicineId": "MED07",
+          "name": "Aceclofenac 100mg",
+          "dosage": "100mg",
+          "frequency": "Twice daily after food",
+          "duration": "10 days"
+        },
+        {
+          "medicineId": "MED09",
+          "name": "Pantoprazole 40mg",
+          "dosage": "40mg",
+          "frequency": "Once daily before food",
+          "duration": "10 days"
+        }
+      ]
+    },
+    {
+      "prescriptionId": "RX107",
+      "patientId": "P107",
+      "doctorId": "D105",
+      "diagnosis": "Mild Persistent Bronchial Asthma",
+      "instructions": "Keep rescue inhaler readily accessible. Evening dose for tablet.",
+      "date": "2026-09-20",
+      "medicines": [
+        {
+          "medicineId": "MED08",
+          "name": "Montelukast 10mg",
+          "dosage": "10mg",
+          "frequency": "Once daily at night",
+          "duration": "30 days"
+        }
+      ]
+    },
+    {
+      "prescriptionId": "RX108",
+      "patientId": "P108",
+      "doctorId": "D105",
+      "diagnosis": "Gastroesophageal Reflux Disease (GERD)",
+      "instructions": "Take 30 minutes before first meal. Elevate bed headrest 15 degrees.",
+      "date": "2026-09-22",
+      "medicines": [
+        {
+          "medicineId": "MED09",
+          "name": "Pantoprazole 40mg",
+          "dosage": "40mg",
+          "frequency": "Once daily empty stomach",
+          "duration": "30 days"
+        }
+      ]
+    }
+  ]
+}

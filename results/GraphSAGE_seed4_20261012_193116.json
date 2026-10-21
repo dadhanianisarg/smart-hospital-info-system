@@ -1,0 +1,19 @@
+{
+  "experiment_name": "GraphSAGE",
+  "seed": 4,
+  "git_commit": "0e4b21674b029ab792c6443821a4031efc4266af",
+  "wall_clock_seconds": 153.325,
+  "timestamp": "2026-10-12T14:01:16Z",
+  "threads": 8,
+  "config": {
+    "dataset": "DrugBank_S1"
+  },
+  "metrics": {
+    "auroc": 0.9671,
+    "auprc": 0.9662,
+    "hits@20": 0.2647,
+    "hits@50": 0.3813,
+    "ece": 0.0517
+  },
+  "metadata": {}
+}

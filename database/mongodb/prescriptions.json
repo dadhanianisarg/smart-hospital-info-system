@@ -1,0 +1,205 @@
+[
+  {
+    "_id": "6ab6a1c114005e4c6e2f6d5e",
+    "prescriptionId": "RX101",
+    "patientId": "P101",
+    "doctorId": "D101",
+    "medicines": [
+      {
+        "medicineId": "MED01",
+        "name": "Amlodipine 5mg",
+        "dosage": "5mg",
+        "frequency": "Once daily",
+        "duration": "30 days"
+      },
+      {
+        "medicineId": "MED10",
+        "name": "Telmisartan 40mg",
+        "dosage": "40mg",
+        "frequency": "Once daily",
+        "duration": "30 days"
+      }
+    ],
+    "diagnosis": "Primary Hypertension Stage 1",
+    "instructions": "Take in the morning after breakfast. Monitor BP weekly.",
+    "date": "2026-09-10",
+    "__v": 0,
+    "createdAt": "2026-09-25T16:30:57.998Z",
+    "updatedAt": "2026-09-25T16:30:57.998Z"
+  },
+  {
+    "_id": "6ab6a1c114005e4c6e2f6d5f",
+    "prescriptionId": "RX102",
+    "patientId": "P102",
+    "doctorId": "D103",
+    "medicines": [
+      {
+        "medicineId": "MED04",
+        "name": "Sumatriptan 50mg",
+        "dosage": "50mg",
+        "frequency": "SOS (as needed)",
+        "duration": "10 days"
+      },
+      {
+        "medicineId": "MED05",
+        "name": "Paracetamol 650mg",
+        "dosage": "650mg",
+        "frequency": "SOS",
+        "duration": "5 days"
+      }
+    ],
+    "diagnosis": "Acute Episodic Migraine",
+    "instructions": "Take Sumatriptan immediately when prodrome starts. Stay hydrated.",
+    "date": "2026-09-11",
+    "__v": 0,
+    "createdAt": "2026-09-25T16:30:57.999Z",
+    "updatedAt": "2026-09-25T16:30:57.999Z"
+  },
+  {
+    "_id": "6ab6a1c114005e4c6e2f6d60",
+    "prescriptionId": "RX103",
+    "patientId": "P103",
+    "doctorId": "D102",
+    "medicines": [
+      {
+        "medicineId": "MED01",
+        "name": "Amlodipine 5mg",
+        "dosage": "5mg",
+        "frequency": "Once daily",
+        "duration": "60 days"
+      },
+      {
+        "medicineId": "MED02",
+        "name": "Atorvastatin 20mg",
+        "dosage": "20mg",
+        "frequency": "Once daily at night",
+        "duration": "60 days"
+      }
+    ],
+    "diagnosis": "Coronary Artery Disease & Dyslipidemia",
+    "instructions": "Maintain low-sodium and low-cholesterol diet. Night dosage for Statin.",
+    "date": "2026-09-12",
+    "__v": 0,
+    "createdAt": "2026-09-25T16:30:57.999Z",
+    "updatedAt": "2026-09-25T16:30:57.999Z"
+  },
+  {
+    "_id": "6ab6a1c114005e4c6e2f6d61",
+    "prescriptionId": "RX104",
+    "patientId": "P104",
+    "doctorId": "D105",
+    "medicines": [
+      {
+        "medicineId": "MED03",
+        "name": "Metformin 500mg",
+        "dosage": "500mg",
+        "frequency": "Twice daily",
+        "duration": "30 days"
+      }
+    ],
+    "diagnosis": "Type 2 Diabetes Mellitus",
+    "instructions": "Take 15 minutes before breakfast and dinner. Avoid refined sugars.",
+    "date": "2026-09-14",
+    "__v": 0,
+    "createdAt": "2026-09-25T16:30:57.999Z",
+    "updatedAt": "2026-09-25T16:30:57.999Z"
+  },
+  {
+    "_id": "6ab6a1c114005e4c6e2f6d62",
+    "prescriptionId": "RX105",
+    "patientId": "P105",
+    "doctorId": "D104",
+    "medicines": [
+      {
+        "medicineId": "MED06",
+        "name": "Glucosamine 500mg",
+        "dosage": "500mg",
+        "frequency": "Once daily",
+        "duration": "60 days"
+      },
+      {
+        "medicineId": "MED07",
+        "name": "Aceclofenac 100mg",
+        "dosage": "100mg",
+        "frequency": "Twice daily",
+        "duration": "7 days"
+      }
+    ],
+    "diagnosis": "Bilateral Knee Osteoarthritis",
+    "instructions": "Perform low-impact quadriceps strengthening. Take with food.",
+    "date": "2026-09-15",
+    "__v": 0,
+    "createdAt": "2026-09-25T16:30:57.999Z",
+    "updatedAt": "2026-09-25T16:30:57.999Z"
+  },
+  {
+    "_id": "6ab6a1c114005e4c6e2f6d63",
+    "prescriptionId": "RX106",
+    "patientId": "P106",
+    "doctorId": "D104",
+    "medicines": [
+      {
+        "medicineId": "MED07",
+        "name": "Aceclofenac 100mg",
+        "dosage": "100mg",
+        "frequency": "Twice daily after food",
+        "duration": "10 days"
+      },
+      {
+        "medicineId": "MED09",
+        "name": "Pantoprazole 40mg",
+        "dosage": "40mg",
+        "frequency": "Once daily before food",
+        "duration": "10 days"
+      }
+    ],
+    "diagnosis": "Lumbar Spondylosis",
+    "instructions": "Avoid forward spine bending. Use ergonomic lumbar support.",
+    "date": "2026-09-18",
+    "__v": 0,
+    "createdAt": "2026-09-25T16:30:57.999Z",
+    "updatedAt": "2026-09-25T16:30:57.999Z"
+  },
+  {
+    "_id": "6ab6a1c114005e4c6e2f6d64",
+    "prescriptionId": "RX107",
+    "patientId": "P107",
+    "doctorId": "D105",
+    "medicines": [
+      {
+        "medicineId": "MED08",
+        "name": "Montelukast 10mg",
+        "dosage": "10mg",
+        "frequency": "Once daily at night",
+        "duration": "30 days"
+      }
+    ],
+    "diagnosis": "Mild Persistent Bronchial Asthma",
+    "instructions": "Keep rescue inhaler readily accessible. Evening dose for tablet.",
+    "date": "2026-09-20",
+    "__v": 0,
+    "createdAt": "2026-09-25T16:30:57.999Z",
+    "updatedAt": "2026-09-25T16:30:57.999Z"
+  },
+  {
+    "_id": "6ab6a1c114005e4c6e2f6d65",
+    "prescriptionId": "RX108",
+    "patientId": "P108",
+    "doctorId": "D105",
+    "medicines": [
+      {
+        "medicineId": "MED09",
+        "name": "Pantoprazole 40mg",
+        "dosage": "40mg",
+        "frequency": "Once daily empty stomach",
+        "duration": "30 days"
+      }
+    ],
+    "diagnosis": "Gastroesophageal Reflux Disease (GERD)",
+    "instructions": "Take 30 minutes before first meal. Elevate bed headrest 15 degrees.",
+    "date": "2026-09-22",
+    "__v": 0,
+    "createdAt": "2026-09-25T16:30:57.999Z",
+    "updatedAt": "2026-09-25T16:30:57.999Z"
+  }
+]

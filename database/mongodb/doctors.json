@@ -1,0 +1,67 @@
+[
+  {
+    "_id": "6ab6a1c114005e4c6e2f6d2d",
+    "doctorId": "D101",
+    "name": "Dr. Rajesh Sharma",
+    "specialization": "Interventional Cardiology",
+    "departmentId": "DEP01",
+    "phone": "9820112233",
+    "email": "rajesh.sharma@hospital.org",
+    "experience": 14,
+    "__v": 0,
+    "createdAt": "2026-09-25T16:30:57.972Z",
+    "updatedAt": "2026-09-25T16:30:57.972Z"
+  },
+  {
+    "_id": "6ab6a1c114005e4c6e2f6d2e",
+    "doctorId": "D102",
+    "name": "Dr. Ananya Iyer",
+    "specialization": "Preventive Cardiology",
+    "departmentId": "DEP01",
+    "phone": "9820223344",
+    "email": "ananya.iyer@hospital.org",
+    "experience": 8,
+    "__v": 0,
+    "createdAt": "2026-09-25T16:30:57.972Z",
+    "updatedAt": "2026-09-25T16:30:57.972Z"
+  },
+  {
+    "_id": "6ab6a1c114005e4c6e2f6d2f",
+    "doctorId": "D103",
+    "name": "Dr. Vikram Rao",
+    "specialization": "Clinical Neurology",
+    "departmentId": "DEP02",
+    "phone": "9820334455",
+    "email": "vikram.rao@hospital.org",
+    "experience": 12,
+    "__v": 0,
+    "createdAt": "2026-09-25T16:30:57.972Z",
+    "updatedAt": "2026-09-25T16:30:57.972Z"
+  },
+  {
+    "_id": "6ab6a1c114005e4c6e2f6d30",
+    "doctorId": "D104",
+    "name": "Dr. Sneha Patel",
+    "specialization": "Orthopedic Surgery",
+    "departmentId": "DEP03",
+    "phone": "9820445566",
+    "email": "sneha.patel@hospital.org",
+    "experience": 10,
+    "__v": 0,
+    "createdAt": "2026-09-25T16:30:57.972Z",
+    "updatedAt": "2026-09-25T16:30:57.972Z"
+  },
+  {
+    "_id": "6ab6a1c114005e4c6e2f6d31",
+    "doctorId": "D105",
+    "name": "Dr. Amitav Ghosh",
+    "specialization": "Internal Medicine",
+    "departmentId": "DEP04",
+    "phone": "9820556677",
+    "email": "amitav.ghosh@hospital.org",
+    "experience": 16,
+    "__v": 0,
+    "createdAt": "2026-09-25T16:30:57.972Z",
+    "updatedAt": "2026-09-25T16:30:57.972Z"
+  }
+]

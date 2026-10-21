@@ -1,0 +1,74 @@
+[
+  {
+    "_id": "6ab6a1c114005e4c6e2f6d34",
+    "diseaseId": "DIS01",
+    "name": "Hypertension",
+    "description": "Chronic arterial blood pressure elevation",
+    "__v": 0,
+    "createdAt": "2026-09-25T16:30:57.974Z",
+    "updatedAt": "2026-09-25T16:30:57.974Z"
+  },
+  {
+    "_id": "6ab6a1c114005e4c6e2f6d35",
+    "diseaseId": "DIS02",
+    "name": "Coronary Artery Disease",
+    "description": "Impairment of blood flow through coronary arteries",
+    "__v": 0,
+    "createdAt": "2026-09-25T16:30:57.975Z",
+    "updatedAt": "2026-09-25T16:30:57.975Z"
+  },
+  {
+    "_id": "6ab6a1c114005e4c6e2f6d36",
+    "diseaseId": "DIS03",
+    "name": "Type 2 Diabetes",
+    "description": "Metabolic disorder characterized by hyperglycemia and insulin resistance",
+    "__v": 0,
+    "createdAt": "2026-09-25T16:30:57.975Z",
+    "updatedAt": "2026-09-25T16:30:57.975Z"
+  },
+  {
+    "_id": "6ab6a1c114005e4c6e2f6d37",
+    "diseaseId": "DIS04",
+    "name": "Migraine",
+    "description": "Neurological headache disorder accompanied by sensory sensitivity",
+    "__v": 0,
+    "createdAt": "2026-09-25T16:30:57.975Z",
+    "updatedAt": "2026-09-25T16:30:57.975Z"
+  },
+  {
+    "_id": "6ab6a1c114005e4c6e2f6d38",
+    "diseaseId": "DIS05",
+    "name": "Osteoarthritis",
+    "description": "Degenerative joint disease resulting from cartilage breakdown",
+    "__v": 0,
+    "createdAt": "2026-09-25T16:30:57.975Z",
+    "updatedAt": "2026-09-25T16:30:57.975Z"
+  },
+  {
+    "_id": "6ab6a1c114005e4c6e2f6d39",
+    "diseaseId": "DIS06",
+    "name": "Lumbar Spondylosis",
+    "description": "Age-related degenerative osteoarthritis of lumbar spine",
+    "__v": 0,
+    "createdAt": "2026-09-25T16:30:57.975Z",
+    "updatedAt": "2026-09-25T16:30:57.975Z"
+  },
+  {
+    "_id": "6ab6a1c114005e4c6e2f6d3a",
+    "diseaseId": "DIS07",
+    "name": "Bronchial Asthma",
+    "description": "Inflammatory disease of airways causing periodic wheezing",
+    "__v": 0,
+    "createdAt": "2026-09-25T16:30:57.975Z",
+    "updatedAt": "2026-09-25T16:30:57.975Z"
+  },
+  {
+    "_id": "6ab6a1c114005e4c6e2f6d3b",
+    "diseaseId": "DIS08",
+    "name": "GERD",
+    "description": "Gastroesophageal reflux disease causing mucosal acid damage",
+    "__v": 0,
+    "createdAt": "2026-09-25T16:30:57.975Z",
+    "updatedAt": "2026-09-25T16:30:57.975Z"
+  }
+]

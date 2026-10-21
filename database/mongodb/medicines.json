@@ -1,0 +1,102 @@
+[
+  {
+    "_id": "6ab6a1c114005e4c6e2f6d3d",
+    "medicineId": "MED01",
+    "name": "Amlodipine 5mg",
+    "category": "Antihypertensive",
+    "description": "Calcium channel blocker for vascular resistance relaxation",
+    "__v": 0,
+    "createdAt": "2026-09-25T16:30:57.977Z",
+    "updatedAt": "2026-09-25T16:30:57.977Z"
+  },
+  {
+    "_id": "6ab6a1c114005e4c6e2f6d3e",
+    "medicineId": "MED02",
+    "name": "Atorvastatin 20mg",
+    "category": "Lipid-Lowering",
+    "description": "HMG-CoA reductase inhibitor lowering LDL cholesterol",
+    "__v": 0,
+    "createdAt": "2026-09-25T16:30:57.977Z",
+    "updatedAt": "2026-09-25T16:30:57.977Z"
+  },
+  {
+    "_id": "6ab6a1c114005e4c6e2f6d3f",
+    "medicineId": "MED03",
+    "name": "Metformin 500mg",
+    "category": "Antidiabetic",
+    "description": "Biguanide decreasing hepatic glucose production",
+    "__v": 0,
+    "createdAt": "2026-09-25T16:30:57.977Z",
+    "updatedAt": "2026-09-25T16:30:57.977Z"
+  },
+  {
+    "_id": "6ab6a1c114005e4c6e2f6d40",
+    "medicineId": "MED04",
+    "name": "Sumatriptan 50mg",
+    "category": "Antimigraine",
+    "description": "Selective 5-HT1B/1D receptor agonist",
+    "__v": 0,
+    "createdAt": "2026-09-25T16:30:57.977Z",
+    "updatedAt": "2026-09-25T16:30:57.977Z"
+  },
+  {
+    "_id": "6ab6a1c114005e4c6e2f6d41",
+    "medicineId": "MED05",
+    "name": "Paracetamol 650mg",
+    "category": "Analgesic",
+    "description": "Antipyretic and analgesic for pain control",
+    "__v": 0,
+    "createdAt": "2026-09-25T16:30:57.977Z",
+    "updatedAt": "2026-09-25T16:30:57.977Z"
+  },
+  {
+    "_id": "6ab6a1c114005e4c6e2f6d42",
+    "medicineId": "MED06",
+    "name": "Glucosamine 500mg",
+    "category": "Chondroprotective",
+    "description": "Nutraceutical supporting cartilage preservation",
+    "__v": 0,
+    "createdAt": "2026-09-25T16:30:57.977Z",
+    "updatedAt": "2026-09-25T16:30:57.977Z"
+  },
+  {
+    "_id": "6ab6a1c114005e4c6e2f6d43",
+    "medicineId": "MED07",
+    "name": "Aceclofenac 100mg",
+    "category": "NSAID",
+    "description": "Potent non-steroidal anti-inflammatory",
+    "__v": 0,
+    "createdAt": "2026-09-25T16:30:57.977Z",
+    "updatedAt": "2026-09-25T16:30:57.977Z"
+  },
+  {
+    "_id": "6ab6a1c114005e4c6e2f6d44",
+    "medicineId": "MED08",
+    "name": "Montelukast 10mg",
+    "category": "Antiasthmatic",
+    "description": "Leukotriene receptor antagonist for airway maintenance",
+    "__v": 0,
+    "createdAt": "2026-09-25T16:30:57.978Z",
+    "updatedAt": "2026-09-25T16:30:57.978Z"
+  },
+  {
+    "_id": "6ab6a1c114005e4c6e2f6d45",
+    "medicineId": "MED09",
+    "name": "Pantoprazole 40mg",
+    "category": "Proton Pump Inhibitor",
+    "description": "Gastric acid secretion suppressor",
+    "__v": 0,
+    "createdAt": "2026-09-25T16:30:57.978Z",
+    "updatedAt": "2026-09-25T16:30:57.978Z"
+  },
+  {
+    "_id": "6ab6a1c114005e4c6e2f6d46",
+    "medicineId": "MED10",
+    "name": "Telmisartan 40mg",
+    "category": "Antihypertensive",
+    "description": "Angiotensin II receptor blocker",
+    "__v": 0,
+    "createdAt": "2026-09-25T16:30:57.978Z",
+    "updatedAt": "2026-09-25T16:30:57.978Z"
+  }
+]

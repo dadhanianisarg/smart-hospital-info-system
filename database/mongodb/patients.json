@@ -1,0 +1,277 @@
+[
+  {
+    "_id": "6ab6a1c114005e4c6e2f6d48",
+    "patientId": "P101",
+    "name": "Rahul Verma",
+    "age": 38,
+    "gender": "Male",
+    "bloodGroup": "B+",
+    "phone": "9876543210",
+    "email": "rahul.verma@example.com",
+    "address": {
+      "street": "14 MG Road",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "zipCode": "400001"
+    },
+    "medicalHistory": [
+      {
+        "disease": "Hypertension",
+        "diagnosedYear": 2023,
+        "notes": "Stage 1 essential hypertension"
+      }
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-25T16:30:57.989Z",
+    "updatedAt": "2026-09-25T16:30:57.989Z"
+  },
+  {
+    "_id": "6ab6a1c114005e4c6e2f6d49",
+    "patientId": "P102",
+    "name": "Priya Nair",
+    "age": 29,
+    "gender": "Female",
+    "bloodGroup": "A+",
+    "phone": "9876543211",
+    "email": "priya.nair@example.com",
+    "address": {
+      "street": "22 Indiranagar",
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "zipCode": "560038"
+    },
+    "medicalHistory": [
+      {
+        "disease": "Migraine",
+        "diagnosedYear": 2022,
+        "notes": "Episodic migraine without aura"
+      }
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-25T16:30:57.989Z",
+    "updatedAt": "2026-09-25T16:30:57.989Z"
+  },
+  {
+    "_id": "6ab6a1c114005e4c6e2f6d4a",
+    "patientId": "P103",
+    "name": "Suresh Menon",
+    "age": 58,
+    "gender": "Male",
+    "bloodGroup": "O+",
+    "phone": "9876543212",
+    "email": "suresh.menon@example.com",
+    "address": {
+      "street": "5 Anna Salai",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "zipCode": "600002"
+    },
+    "medicalHistory": [
+      {
+        "disease": "Coronary Artery Disease",
+        "diagnosedYear": 2021,
+        "notes": "Mild single-vessel disease"
+      },
+      {
+        "disease": "Hypertension",
+        "diagnosedYear": 2019,
+        "notes": "Controlled with medication"
+      }
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-25T16:30:57.989Z",
+    "updatedAt": "2026-09-25T16:30:57.989Z"
+  },
+  {
+    "_id": "6ab6a1c114005e4c6e2f6d4b",
+    "patientId": "P104",
+    "name": "Kavita Reddy",
+    "age": 44,
+    "gender": "Female",
+    "bloodGroup": "AB+",
+    "phone": "9876543213",
+    "email": "kavita.reddy@example.com",
+    "address": {
+      "street": "8 Banjara Hills",
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "zipCode": "500034"
+    },
+    "medicalHistory": [
+      {
+        "disease": "Type 2 Diabetes",
+        "diagnosedYear": 2020,
+        "notes": "Under dietary and drug management"
+      }
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-25T16:30:57.989Z",
+    "updatedAt": "2026-09-25T16:30:57.989Z"
+  },
+  {
+    "_id": "6ab6a1c114005e4c6e2f6d4c",
+    "patientId": "P105",
+    "name": "Arun Mukherjee",
+    "age": 62,
+    "gender": "Male",
+    "bloodGroup": "B-",
+    "phone": "9876543214",
+    "email": "arun.mukherjee@example.com",
+    "address": {
+      "street": "19 Park Street",
+      "city": "Kolkata",
+      "state": "West Bengal",
+      "zipCode": "700016"
+    },
+    "medicalHistory": [
+      {
+        "disease": "Osteoarthritis",
+        "diagnosedYear": 2022,
+        "notes": "Bilateral knee osteoarthritis"
+      }
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-25T16:30:57.989Z",
+    "updatedAt": "2026-09-25T16:30:57.989Z"
+  },
+  {
+    "_id": "6ab6a1c114005e4c6e2f6d4d",
+    "patientId": "P106",
+    "name": "Sunita Sharma",
+    "age": 51,
+    "gender": "Female",
+    "bloodGroup": "O-",
+    "phone": "9876543215",
+    "email": "sunita.sharma@example.com",
+    "address": {
+      "street": "42 Ring Road",
+      "city": "New Delhi",
+      "state": "Delhi",
+      "zipCode": "110001"
+    },
+    "medicalHistory": [
+      {
+        "disease": "Lumbar Spondylosis",
+        "diagnosedYear": 2023,
+        "notes": "L4-L5 disc degeneration"
+      },
+      {
+        "disease": "Hypertension",
+        "diagnosedYear": 2024,
+        "notes": "Mild"
+      }
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-25T16:30:57.989Z",
+    "updatedAt": "2026-09-25T16:30:57.989Z"
+  },
+  {
+    "_id": "6ab6a1c114005e4c6e2f6d4e",
+    "patientId": "P107",
+    "name": "Deepak Joshi",
+    "age": 34,
+    "gender": "Male",
+    "bloodGroup": "A-",
+    "phone": "9876543216",
+    "email": "deepak.joshi@example.com",
+    "address": {
+      "street": "3 FC Road",
+      "city": "Pune",
+      "state": "Maharashtra",
+      "zipCode": "411004"
+    },
+    "medicalHistory": [
+      {
+        "disease": "Bronchial Asthma",
+        "diagnosedYear": 2018,
+        "notes": "Seasonal pollen triggers"
+      }
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-25T16:30:57.989Z",
+    "updatedAt": "2026-09-25T16:30:57.989Z"
+  },
+  {
+    "_id": "6ab6a1c114005e4c6e2f6d4f",
+    "patientId": "P108",
+    "name": "Meera Das",
+    "age": 41,
+    "gender": "Female",
+    "bloodGroup": "B+",
+    "phone": "9876543217",
+    "email": "meera.das@example.com",
+    "address": {
+      "street": "7 SG Highway",
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "zipCode": "380015"
+    },
+    "medicalHistory": [
+      {
+        "disease": "GERD",
+        "diagnosedYear": 2024,
+        "notes": "Frequent nocturnal reflux"
+      }
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-25T16:30:57.989Z",
+    "updatedAt": "2026-09-25T16:30:57.989Z"
+  },
+  {
+    "_id": "6ab6a1c114005e4c6e2f6d50",
+    "patientId": "P109",
+    "name": "Karan Kapoor",
+    "age": 47,
+    "gender": "Male",
+    "bloodGroup": "AB-",
+    "phone": "9876543218",
+    "email": "karan.kapoor@example.com",
+    "address": {
+      "street": "11 Sector 17",
+      "city": "Chandigarh",
+      "state": "Punjab",
+      "zipCode": "160017"
+    },
+    "medicalHistory": [
+      {
+        "disease": "Type 2 Diabetes",
+        "diagnosedYear": 2021,
+        "notes": "Managed with Metformin"
+      },
+      {
+        "disease": "Hypertension",
+        "diagnosedYear": 2022,
+        "notes": "Moderate"
+      }
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-25T16:30:57.989Z",
+    "updatedAt": "2026-09-25T16:30:57.989Z"
+  },
+  {
+    "_id": "6ab6a1c114005e4c6e2f6d51",
+    "patientId": "P110",
+    "name": "Anjali Bhatt",
+    "age": 26,
+    "gender": "Female",
+    "bloodGroup": "O+",
+    "phone": "9876543219",
+    "email": "anjali.bhatt@example.com",
+    "address": {
+      "street": "2 MI Road",
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "zipCode": "302001"
+    },
+    "medicalHistory": [
+      {
+        "disease": "Migraine",
+        "diagnosedYear": 2025,
+        "notes": "Stress induced headaches"
+      }
+    ],
+    "__v": 0,
+    "createdAt": "2026-09-25T16:30:57.990Z",
+    "updatedAt": "2026-09-25T16:30:57.990Z"
+  }
+]

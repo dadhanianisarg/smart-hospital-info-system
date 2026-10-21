@@ -1,0 +1,19 @@
+{
+  "experiment_name": "Fingerprint_LR",
+  "seed": 4,
+  "git_commit": "0e4b21674b029ab792c6443821a4031efc4266af",
+  "wall_clock_seconds": 14.622,
+  "timestamp": "2026-10-12T13:45:32Z",
+  "threads": 8,
+  "config": {
+    "split": "S3"
+  },
+  "metrics": {
+    "auroc": 0.6149,
+    "auprc": 0.6117,
+    "hits@20": 0.0103,
+    "hits@50": 0.0225,
+    "ece": 0.4876
+  },
+  "metadata": {}
+}

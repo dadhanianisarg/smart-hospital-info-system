@@ -1,0 +1,68 @@
+# Context-Conditioned Interaction Severity Rules (Task B: Controlled Simulation)
+# DISCLAIMER: Synthetic, rule-based context labels for architectural validation and proof of concept only.
+# Not intended as clinical guidelines or diagnostic algorithms.
+
+rules:
+  - id: R1_RENAL_NSAID_ACEI
+    name: "Nephrotoxic Synergy in Renal Impairment"
+    condition_keyword: "kidney"
+    drug_class_a: ["lisinopril", "enalapril", "ramipril", "losartan", "telmisartan"]
+    drug_class_b: ["ibuprofen", "naproxen", "ketorolac", "celecoxib", "ketoprofen", "diclofenac", "aceclofenac", "indomethacin"]
+    severity_multiplier: 1.85
+    clinical_rationale: "Impaired renal hemodynamics: ACEI efferent dilation plus NSAID afferent constriction causes acute GFR collapse."
+
+  - id: R2_GI_BLEED_ANTICOAGULANT_NSAID
+    name: "Hemorrhagic Risk in Peptic Ulcer Disease"
+    condition_keyword: "ulcer"
+    drug_class_a: ["warfarin", "apixaban", "rivaroxaban", "aspirin", "clopidogrel"]
+    drug_class_b: ["ibuprofen", "naproxen", "indomethacin", "diclofenac", "aceclofenac", "ketorolac", "ketoprofen"]
+    severity_multiplier: 2.10
+    clinical_rationale: "Pre-existing mucosal erosion compounded by systemic antiplatelet/anticoagulant activity causes major GI hemorrhage."
+
+  - id: R3_HEART_FAILURE_DEPRESSION
+    name: "Cardiodepression in Congestive Heart Failure"
+    condition_keyword: "heart failure"
+    drug_class_a: ["metoprolol", "atenolol", "carvedilol"]
+    drug_class_b: ["verapamil", "diltiazem"]
+    severity_multiplier: 1.75
+    clinical_rationale: "Compounded negative inotropy and dromotropy triggers acute decompensation and AV nodal block."
+
+  - id: R4_DIABETES_GLYCEMIC_DYSREGULATION
+    name: "Steroid Induced Hyperglycemia in Diabetes"
+    condition_keyword: "diabetes"
+    drug_class_a: ["metformin", "glipizide", "insulin"]
+    drug_class_b: ["prednisone", "dexamethasone", "hydrocortisone"]
+    severity_multiplier: 1.55
+    clinical_rationale: "Corticosteroids induce acute hepatic gluconeogenesis and peripheral insulin resistance in diabetic patients."
+
+  - id: R5_HEPATIC_TOXICITY
+    name: "Hepatotoxicity Amplification in Cirrhosis"
+    condition_keyword: "hepatic"
+    drug_class_a: ["acetaminophen", "paracetamol"]
+    drug_class_b: ["isoniazid", "methotrexate", "amiodarone"]
+    severity_multiplier: 1.90
+    clinical_rationale: "Depleted baseline glutathione reserves exacerbate toxic metabolite accumulation."
+
+  - id: R6_ASTHMA_BRONCHOSPASM
+    name: "Bronchospasm Amplification in Asthma"
+    condition_keyword: "asthma"
+    drug_class_a: ["propranolol", "nadolol", "timolol", "carvedilol"]
+    drug_class_b: ["albuterol", "salmeterol", "formoterol"]
+    severity_multiplier: 1.80
+    clinical_rationale: "Non-selective beta blockade antagonizes beta-2 bronchodilation, precipitating refractory bronchoconstriction."
+
+  - id: R7_ARRHYTHMIA_QT_PROLONGATION
+    name: "Ventricular Arrhythmia in Long QT Syndrome"
+    condition_keyword: "arrhythmia"
+    drug_class_a: ["ciprofloxacin", "levofloxacin", "azithromycin"]
+    drug_class_b: ["amiodarone", "haloperidol", "ondansetron"]
+    severity_multiplier: 2.05
+    clinical_rationale: "Compounded hERG potassium channel inhibition triggers Torsades de Pointes in patients with baseline electrical instability."
+
+  - id: R8_HYPERKALEMIA_CARDIAC_ARREST
+    name: "Potassium Retention in Hyperkalemia"
+    condition_keyword: "hyperkalemia"
+    drug_class_a: ["spironolactone", "eplerenone", "triamterene"]
+    drug_class_b: ["potassium chloride", "lisinopril", "losartan"]
+    severity_multiplier: 1.70
+    clinical_rationale: "Synergistic potassium retention in patients with impaired potassium homeostasis causes fatal arrhythmias."

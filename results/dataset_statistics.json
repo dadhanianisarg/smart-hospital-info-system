@@ -1,0 +1,53 @@
+{
+  "timestamp": "2026-10-12T13:34:48Z",
+  "ogbl_ddi": {
+    "dataset": "ogbl-ddi",
+    "num_nodes": 4267,
+    "num_edges": 2135822,
+    "train_edges": 1067911,
+    "val_edges": 133489,
+    "test_edges": 133489,
+    "primary_metric": "Hits@20 (ranking vs all negatives)",
+    "feature_type": "Learned Node Embeddings (standard OGB setup)"
+  },
+  "drugbank": {
+    "dataset": "DrugBank DDI",
+    "license": "Academic Research License (via PyTDC)",
+    "num_unique_drugs": 1706,
+    "num_undirected_interactions": 191402,
+    "invalid_smiles_count": 1,
+    "valid_fingerprint_count": 1705,
+    "fingerprint_bits": 2048,
+    "splits": {
+      "S1_Transductive": {
+        "train_pos": 153121,
+        "train_neg": 153121,
+        "val_pos": 19140,
+        "val_neg": 19140,
+        "test_pos": 19141,
+        "test_neg": 19141,
+        "held_out_nodes": 0
+      },
+      "S2_One_Unseen_Drug": {
+        "train_pos": 139784,
+        "train_neg": 139784,
+        "val_pos": 9478,
+        "val_neg": 9478,
+        "test_pos": 38126,
+        "test_neg": 38126,
+        "train_nodes": 1451,
+        "held_out_nodes": 255
+      },
+      "S3_Two_Unseen_Drugs": {
+        "train_pos": 122734,
+        "train_neg": 122734,
+        "val_pos": 1530,
+        "val_neg": 1530,
+        "test_pos": 6045,
+        "test_neg": 6045,
+        "train_nodes": 1365,
+        "held_out_nodes": 341
+      }
+    }
+  }
+}

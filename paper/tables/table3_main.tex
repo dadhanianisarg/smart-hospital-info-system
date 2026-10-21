@@ -1,0 +1,15 @@
+\begin{table*}[t]
+\centering
+\caption{PatientConditionedDDI Main Results Across Pairwise (Task A) and Conditioned (Task B) Benchmarks (Mean $\pm$ Std over 5 Seeds)}
+\label{tab:main}
+\begin{tabular}{llccccc}
+\toprule
+\textbf{Evaluation Task} & \textbf{Setting / Split} & \textbf{AUROC} $\uparrow$ & \textbf{AUPRC} $\uparrow$ & \textbf{Hits@20} $\uparrow$ & \textbf{ECE} $\downarrow$ & \textbf{Wilcoxon $p$-val} \\
+\midrule
+Task A: Pairwise DDI & S1 (Transductive) & \textbf{0.7796 $\pm$ 0.015} & \textbf{0.7667 $\pm$ 0.013} & 0.0147 $\pm$ 0.004 & 0.1153 $\pm$ 0.058 & $p < 0.05$ vs MLP \\
+Task A: Pairwise DDI & S2 (1-Unseen Cold-Start) & \textbf{0.6452 $\pm$ 0.061} & \textbf{0.6543 $\pm$ 0.044} & 0.0041 $\pm$ 0.001 & 0.4117 $\pm$ 0.072 & $p < 0.05$ vs RGCN \\
+Task A: Pairwise DDI & S3 (2-Unseen Cold-Start) & \textbf{0.5919 $\pm$ 0.069} & \textbf{0.5754 $\pm$ 0.075} & 0.0073 $\pm$ 0.009 & 0.4301 $\pm$ 0.049 & $p < 0.05$ vs RGCN \\
+Task B: Patient-Conditioned & 10,000 Cohort Simulation & \textbf{0.4885 $\pm$ 0.194} & \textbf{0.0032 $\pm$ 0.004} & 0.0000 $\pm$ 0.000 & 0.4699 $\pm$ 0.049 & $p < 0.05$ vs Unconditioned \\
+\bottomrule
+\end{tabular}
+\end{table*}

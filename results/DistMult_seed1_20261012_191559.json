@@ -1,0 +1,19 @@
+{
+  "experiment_name": "DistMult",
+  "seed": 1,
+  "git_commit": "0e4b21674b029ab792c6443821a4031efc4266af",
+  "wall_clock_seconds": 0.809,
+  "timestamp": "2026-10-12T13:45:59Z",
+  "threads": 8,
+  "config": {
+    "split": "S1_Transductive"
+  },
+  "metrics": {
+    "auroc": 0.8433,
+    "auprc": 0.8534,
+    "hits@20": 0.0847,
+    "hits@50": 0.1265,
+    "ece": 0.1901
+  },
+  "metadata": {}
+}

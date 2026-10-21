@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Smart Hospital Information System - Prescription-Time DDI Alert Panel Preview</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: #f8fafc;
+      margin: 0;
+      padding: 40px;
+      color: #0f172a;
+    }
+    .container {
+      max-width: 760px;
+      margin: 0 auto;
+      background: white;
+      border-radius: 12px;
+      padding: 32px;
+      box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    }
+    h2 {
+      margin-top: 0;
+      color: #1e293b;
+      font-size: 1.4rem;
+      border-bottom: 2px solid #e2e8f0;
+      padding-bottom: 12px;
+    }
+    .scenario-title {
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: #475569;
+      margin: 24px 0 8px 0;
+    }
+    
+    /* RED Alert Box (Critical Risk) */
+    .alert-critical {
+      border: 1px solid #ef4444;
+      background-color: #fef2f2;
+      color: #991b1b;
+      border-radius: 8px;
+      padding: 16px;
+      margin-bottom: 20px;
+    }
+    .alert-header {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 1.05rem;
+      font-weight: 700;
+    }
+    .alert-details {
+      margin-top: 10px;
+      font-size: 0.9rem;
+      line-height: 1.5;
+    }
+    .alert-badge {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-size: 0.78rem;
+      font-weight: 700;
+      background-color: #fee2e2;
+      color: #b91c1c;
+      margin-left: 6px;
+    }
+    .alert-explanation {
+      font-size: 0.82rem;
+      color: #64748b;
+      margin-top: 4px;
+      padding-left: 12px;
+      border-left: 2px solid #fca5a5;
+    }
+    .alert-footer {
+      margin-top: 12px;
+      font-size: 0.75rem;
+      color: #6b7280;
+      font-style: italic;
+      border-top: 1px solid #fecaca;
+      padding-top: 8px;
+    }
+
+    /* YELLOW Alert Box (Moderate Risk) */
+    .alert-moderate {
+      border: 1px solid #f59e0b;
+      background-color: #fffbeb;
+      color: #92400e;
+      border-radius: 8px;
+      padding: 16px;
+      margin-bottom: 20px;
+    }
+
+    /* GREEN Alert Box (Low Risk) */
+    .alert-low {
+      border: 1px solid #10b981;
+      background-color: #ecfdf5;
+      color: #065f46;
+      border-radius: 8px;
+      padding: 16px;
+      margin-bottom: 20px;
+    }
+
+    /* GREY Badge (Offline Fallback) */
+    .badge-offline {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background-color: #f1f5f9;
+      border: 1px solid #cbd5e1;
+      color: #475569;
+      padding: 8px 14px;
+      border-radius: 6px;
+      font-size: 0.85rem;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Smart Hospital Information System &mdash; Prescription-Time DDI Alert Panel</h2>
+    <p style="color: #64748b; font-size: 0.88rem;">Integrated Relational GNN Inference Check &bull; Authors: Yash Khose (23BCE0625) & Tanish Chawla (23BCE0502)</p>
+
+    <!-- 1. CRITICAL ALERT -->
+    <div class="scenario-title">1. High-Risk Clinical State (Patient with Chronic Kidney Disease prescribed Ibuprofen while on Lisinopril):</div>
+    <div class="alert-critical">
+      <div class="alert-header">
+        <span>🚨 CRITICAL DRUG-INTERACTION RISK (Risk: 94.1%)</span>
+      </div>
+      <div class="alert-details">
+        <div>&bull; Interacting with <strong>Lisinopril</strong>: <strong>CRITICAL</strong> <span class="alert-badge">Patient Context Amplified</span></div>
+        <div class="alert-explanation">
+          Elevated nephrotoxic risk: ACEI efferent arteriolar vasodilation compounded by NSAID afferent vasoconstriction in patient with renal impairment.
+        </div>
+      </div>
+      <div class="alert-footer">
+        Research prototype. Not for clinical diagnostic or prescribing use. (Inference Latency: 3.42ms &bull; R-GCN + Neighborhood Attention)
+      </div>
+    </div>
+
+    <!-- 2. MODERATE ALERT -->
+    <div class="scenario-title">2. Moderate-Risk Clinical State (Routine co-prescription):</div>
+    <div class="alert-moderate">
+      <div class="alert-header">
+        <span>⚡ MODERATE INTERACTION RISK (Risk: 48.0%)</span>
+      </div>
+      <div class="alert-details">
+        <div>&bull; Interacting with <strong>Lisinopril</strong>: MODERATE</div>
+        <div class="alert-explanation">
+          Standard pairwise pharmacological interaction profile. Patient exhibits baseline lipid profile without acute organ contraindication.
+        </div>
+      </div>
+      <div class="alert-footer">
+        Research prototype. Not for clinical diagnostic or prescribing use. (Inference Latency: 2.18ms)
+      </div>
+    </div>
+
+    <!-- 3. LOW RISK -->
+    <div class="scenario-title">3. Benign Co-Prescription:</div>
+    <div class="alert-low">
+      <div class="alert-header">
+        <span>✅ LOW INTERACTION RISK (Risk: 8.5%)</span>
+      </div>
+      <div class="alert-details">
+        <div>No synergistic toxicities or pharmacokinetic contraindications detected. Safe to administer according to standard dosing schedules.</div>
+      </div>
+      <div class="alert-footer">
+        Research prototype. Not for clinical diagnostic or prescribing use. (Inference Latency: 1.95ms)
+      </div>
+    </div>
+
+    <!-- 4. OFFLINE FALLBACK -->
+    <div class="scenario-title">4. Fail-Safe Offline Mode (FastAPI ML Service Offline / Unreachable):</div>
+    <div class="badge-offline">
+      <span>ℹ️</span>
+      <span><strong>ML check unavailable</strong> &mdash; Proceeding with standard clinical prescribing workflow. System remains fully operational.</span>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-10-12 19:53:16",
+  "wall_time_seconds": 60.12,
+  "cohort": {
+    "num_patients": 10000,
+    "active_patients_with_data": 10000,
+    "num_condition_nodes": 12,
+    "num_drug_nodes": 1706,
+    "has_condition_edges": 24853,
+    "takes_drug_edges": 29935,
+    "training_ddi_edges": 153121
+  },
+  "mapping": {
+    "total_synthea_med_rows": 29935,
+    "mapped_med_rows": 29935,
+    "dropped_med_rows": 0,
+    "row_coverage_pct": 100.0,
+    "total_unique_meds": 16,
+    "mapped_unique_meds": 16,
+    "unmapped_unique_meds": 0
+  },
+  "task_b": {
+    "num_test_queries": 7410,
+    "amplified_queries": 5,
+    "amplification_pct": 0.07,
+    "label_type": "SYNTHETIC_RULE_BASED"
+  }
+}

@@ -1,0 +1,27 @@
+# PatientConditionedDDI Hyperparameter Configuration
+# Global Rules: CPU-only execution, seeds 0, 1, 2, 3, 4
+
+model:
+  in_dim: 2048
+  hidden_dim: 128
+  num_conditions: 25
+  num_patients: 10000
+  num_relations: 1
+  encoder_type: "rgcn"      # 'rgcn', 'gat', 'gcn'
+  use_attention: true       # neighborhood attention over patient subgraph
+  dropout: 0.1
+
+training:
+  seeds: [0, 1, 2, 3, 4]
+  lr: 0.002
+  weight_decay: 0.00001
+  num_epochs: 12
+  batch_size: 2048
+  patience: 4
+  num_threads: 8
+
+ablations:
+  dims: [32, 64, 128]
+  encoders: ["rgcn", "gat"]
+  attention_modes: ["attention", "mean_pooling"]
+  feature_modes: ["fingerprints", "random_id"]

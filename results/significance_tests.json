@@ -1,0 +1,26 @@
+[
+  {
+    "comparison": "Our Model vs Fingerprint_MLP (S1 AUROC)",
+    "our_mean": 0.7795799999999999,
+    "base_mean": 0.93536,
+    "wilcoxon_stat": 0.0,
+    "p_value": 0.0625,
+    "significant_p05": false
+  },
+  {
+    "comparison": "Our Model vs Fingerprint_LR (S2 AUROC)",
+    "our_mean": 0.6452199999999999,
+    "base_mean": 0.7027,
+    "wilcoxon_stat": 0.0,
+    "p_value": 0.0625,
+    "significant_p05": false
+  },
+  {
+    "comparison": "Patient-Conditioned vs No-Context Ablation (Task B AUROC)",
+    "our_mean": 0.48846000000000006,
+    "base_mean": 0.16968,
+    "wilcoxon_stat": 0.0,
+    "p_value": 0.0625,
+    "significant_p05": false
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "experiment_name": "TransE",
+  "seed": 3,
+  "git_commit": "0e4b21674b029ab792c6443821a4031efc4266af",
+  "wall_clock_seconds": 1.329,
+  "timestamp": "2026-10-12T13:45:55Z",
+  "threads": 8,
+  "config": {
+    "split": "S1_Transductive"
+  },
+  "metrics": {
+    "auroc": 0.6782,
+    "auprc": 0.6494,
+    "hits@20": 0.0019,
+    "hits@50": 0.0052,
+    "ece": 0.0204
+  },
+  "metadata": {}
+}

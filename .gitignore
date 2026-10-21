@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Environment Variables
+.env
+server/.env
+
+# Build outputs
+client/dist/
+
+# Logs
+*.log
+npm-debug.log*
+
+# System & IDE files
+~$*
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Review submissions & local evaluation material
+review2_submission/
+review*_submission/
+*.docx
+Nosql review 1.*
+NoSQL project ideas.*
+generate_reports.py
+
+# Python & ML
+__pycache__/
+*.py[cod]
+*$py.class
+ml/venv/
+ml/data/
+.pytest_cache/
+*.egg-info/
+.coverage
+htmlcov/

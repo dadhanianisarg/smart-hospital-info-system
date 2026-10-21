@@ -1,0 +1,19 @@
+{
+  "experiment_name": "Fingerprint_MLP",
+  "seed": 4,
+  "git_commit": "0e4b21674b029ab792c6443821a4031efc4266af",
+  "wall_clock_seconds": 17.151,
+  "timestamp": "2026-10-12T13:45:49Z",
+  "threads": 8,
+  "config": {
+    "split": "S3"
+  },
+  "metrics": {
+    "auroc": 0.6511,
+    "auprc": 0.6656,
+    "hits@20": 0.0496,
+    "hits@50": 0.0706,
+    "ece": 0.4851
+  },
+  "metadata": {}
+}

@@ -1,0 +1,19 @@
+{
+  "experiment_name": "R-GCN",
+  "seed": 1,
+  "git_commit": "0e4b21674b029ab792c6443821a4031efc4266af",
+  "wall_clock_seconds": 31.102,
+  "timestamp": "2026-10-12T14:05:17Z",
+  "threads": 8,
+  "config": {
+    "split": "S1"
+  },
+  "metrics": {
+    "auroc": 0.9619,
+    "auprc": 0.9609,
+    "hits@20": 0.2749,
+    "hits@50": 0.3927,
+    "ece": 0.035
+  },
+  "metadata": {}
+}

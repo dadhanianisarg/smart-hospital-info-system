@@ -1,0 +1,38 @@
+[
+  {
+    "_id": "6ab6a1c114005e4c6e2f6d27",
+    "departmentId": "DEP01",
+    "name": "Cardiology",
+    "description": "Comprehensive heart, cardiovascular, and thoracic care",
+    "__v": 0,
+    "createdAt": "2026-09-25T16:30:57.965Z",
+    "updatedAt": "2026-09-25T16:30:57.965Z"
+  },
+  {
+    "_id": "6ab6a1c114005e4c6e2f6d28",
+    "departmentId": "DEP02",
+    "name": "Neurology",
+    "description": "Brain, central nervous system, and neuro-muscular disorders",
+    "__v": 0,
+    "createdAt": "2026-09-25T16:30:57.966Z",
+    "updatedAt": "2026-09-25T16:30:57.966Z"
+  },
+  {
+    "_id": "6ab6a1c114005e4c6e2f6d29",
+    "departmentId": "DEP03",
+    "name": "Orthopedics",
+    "description": "Bone fractures, joint replacements, and musculoskeletal wellness",
+    "__v": 0,
+    "createdAt": "2026-09-25T16:30:57.966Z",
+    "updatedAt": "2026-09-25T16:30:57.966Z"
+  },
+  {
+    "_id": "6ab6a1c114005e4c6e2f6d2a",
+    "departmentId": "DEP04",
+    "name": "General Medicine",
+    "description": "Primary outpatient consultation and internal medical care",
+    "__v": 0,
+    "createdAt": "2026-09-25T16:30:57.966Z",
+    "updatedAt": "2026-09-25T16:30:57.966Z"
+  }
+]
