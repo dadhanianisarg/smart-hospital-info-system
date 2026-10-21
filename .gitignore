@@ -4,10 +4,14 @@ node_modules/
 
 # Environment Variables
 .env
+.env.local
+.env.*.local
 server/.env
 
 # Build outputs
 client/dist/
+dist/
+build/
 
 # Logs
 *.log
@@ -17,6 +21,9 @@ npm-debug.log*
 ~$*
 .DS_Store
 Thumbs.db
+Desktop.ini
+*.swp
+*~
 .vscode/
 .idea/
 
@@ -28,13 +35,37 @@ Nosql review 1.*
 NoSQL project ideas.*
 generate_reports.py
 
-# Python & ML
+# Python & ML Environments & Caches
 __pycache__/
 *.py[cod]
 *$py.class
+venv/
+.venv/
+env/
 ml/venv/
 ml/data/
 .pytest_cache/
 *.egg-info/
 .coverage
 htmlcov/
+
+# LaTeX build outputs
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.bbl
+paper/*.blg
+paper/*.toc
+paper/*.synctex.gz
+paper/*.fls
+paper/*.fdb_latexmk
+
+# Redundant / duplicate files and scratch notes
+database/mongodb/smart_hospital_full_dump.json
+docs/ALL_1706_DRUGBANK_DRUGS.md
+reports/alert_box_preview.html
+reports/extracted_references.txt
+figures/*.pdf
+
+# Intermediate benchmark seed run logs (summary CSVs & tables are preserved)
+results/*_seed*.json
